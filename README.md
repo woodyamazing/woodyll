@@ -23,4 +23,4 @@ tpwoodyLL opens your minecraft, teleports you to coordinates from your clipboard
 5. Run `cd tpwoodyll` and `sudo python3 tpwoodyll-macos.py` you might have to enter your password.
 6. You can stop the script by pressing CTRL+C or by closing the Terminal window
 
-If you want to question anything, contact @woody#8006 on Discord.
+If you want to question anything, complain about how poorly written the script is, contact @woody#8006 on Discord.
