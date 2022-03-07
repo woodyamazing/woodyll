@@ -8,11 +8,11 @@ tpwoodyLL opens your minecraft, teleports you to coordinates from your clipboard
 
 # Installation
 ### Windows installation
-1. Verify if your PC has python installed by opening cmd and type `python3 --version`. If your PC has python installed, proceed to step 2. If your PC doesn't have python installed, download it from [python.org](https://www.python.org/downloads/).
+1. Verify if your PC has python installed by opening cmd and type `py --version`. If your PC has python installed, proceed to step 2. If your PC doesn't have python installed, download it from [python.org](https://www.python.org/downloads/).
 2. Open cmd and type `pip install pyperclip keyboard`
 3. Download tpwoodyll by running `git clone https://github.com/woodyamazing/tpwoodyLL.git` in cmd or by downloading it manually.
 4. Open tpwoodyll-windows.py and change the keybind to your liking `keybind = "§" #set your keybind here` the defaulf keybind is §.
-5. Run `cd tpwoodyll` and `python3 tpwoodyll-windows.py`
+5. Run `cd tpwoodyll` and `py tpwoodyll-windows.py`
 6. You can stop the script by pressing CTRL+C or by closing the cmd window
 
 ### MacOS installation
