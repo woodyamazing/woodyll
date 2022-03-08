@@ -22,7 +22,7 @@ with open(configFile, 'r') as config:
 	configData = json.load(config)
 	delay = int(configData["delay"])
 	keybind = configData["keybind"]
-
+	height = configData["tpll height"]
 # detect OS
 if os.name == "posix":
 	appSwitch = "cmd+tab"
@@ -34,21 +34,24 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print("tpwoodyll v1.1 \nReady")
 
 while True:
-	k.wait(keybind)
-
 	coords = pc.paste()
-
+	tpll = '/tpll ' + coords + height
+	k.wait(keybind)
 	k.send(appSwitch)
 	time.sleep(delay)
 	k.send('esc')
 	k.send('t')
 	time.sleep(0.05)
 	k.send('backspace')
-	k.write('/tpll' + coords)
+	k.write(tpll)
+	k.send('enter')
 	k.send('t')
 	time.sleep(0.05)
 	k.send('backspace')
-	k.write('/up 0')
+	k.write("/up 0")
 	k.send('enter')
+	time.sleep(delay)
 	k.send(appSwitch)
+
+
 
