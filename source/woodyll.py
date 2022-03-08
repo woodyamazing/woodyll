@@ -34,24 +34,24 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print("tpwoodyll v1.1 \nReady")
 
 while True:
-	coords = pc.paste()
-	tpll = '/tpll ' + coords + height
 	k.wait(keybind)
+
+	coords = pc.paste()
+	tpll = str("/tpll "+ coords + height)
+
 	k.send(appSwitch)
 	time.sleep(delay)
-	k.send('esc')
-	k.send('t')
-	time.sleep(0.05)
-	k.send('backspace')
+	k.send("esc")
+	k.send("t")
+	time.sleep(0.1)
+	k.send("backspace")
 	k.write(tpll)
-	k.send('enter')
-	k.send('t')
-	time.sleep(0.05)
-	k.send('backspace')
+	k.press("enter")
+	time.sleep(0.1)
+	k.send("t")
+	time.sleep(0.1)
+	k.send("backspace")
 	k.write("/up 0")
-	k.send('enter')
-	time.sleep(delay)
+	k.send("enter")
 	k.send(appSwitch)
-
-
 
