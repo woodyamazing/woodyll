@@ -1,6 +1,6 @@
 # i really don't recommend installing this just wait for amazing new version coming soon
 
-![tpwoodyll logo](https://github.com/woodyamazing/tpwoodyLL/blob/main/tpwoodyll.png?raw=true)
+![tpwoodyll logo](https://github.com/woodyamazing/tpwoodyLL/blob/main/woodyll.png?raw=true)
 
 # Introduction
 
