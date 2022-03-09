@@ -19,7 +19,7 @@ woodyll opens your minecraft, teleports you to coordinates from your clipboard, 
 1. Verify if your Mac has python installed by opening Terminal and type `python3 --version`. If your Mac has python installed, proceed to step 2. If your Mac doesn't have python installed, download it from [python.org](https://www.python.org/downloads/).
 2. Download woodyll by running `git clone https://github.com/woodyamazing/woodyll.git` in Terminal or download the zip and extract it.
 3. Open `config.json` and set the keybind used for executing the script. The default is `§`.
-4. Open Terminal, navigate to woodyll folder and then run `chmod u+x source/woodyll.sh`
+4. Open Terminal, navigate to woodyll folder and then run `chmod u+x launch-macos.sh`
 5. Run `launch-macos.sh` woodyll should start.
 6. Now open Minecraft then open your map source, copy needed coordinates and press your keybind. You can stop the script by pressing CTRL+C or by closing the Terminal window.
 
